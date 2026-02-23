@@ -50,7 +50,7 @@ function showFilterBtn(id) {
     const selectedId = document.getElementById(id);
     selectedId.classList.add("bg-[#3b82f6]", "text-white");
 
-    // toggle btn interview and rejected section show & hide
+    // toggle btn interview , rejected section show & hide
     if (id === "interview-filter-btn") {
         interviewFilterSection.classList.remove("hidden");
         allCardSection.classList.add("hidden");
@@ -91,7 +91,7 @@ function showFilterBtn(id) {
 };
 
 
-// RENDER ALL
+// render ALL
 function renderAll() {
     showRenderInterview();
     showRenderReject();
@@ -217,7 +217,7 @@ function showRenderReject() {
                         <div>
                             <button class="delete-btn text-red-600 px-3 py-1 rounded font-extrabold text-3xl">
                                 <span
-                                    class="p-2 shadow  border-red-700 hover:bg-red-100 hover:border transition-all duration-600 rounded-full cursor-pointer"><i
+                                    class="p-2 shadow  border-red-300 hover:bg-red-100 hover:border transition-all rounded-full cursor-pointer"><i
                                         class="fa-regular fa-trash-can"></i></span>
                             </button>
                         </div>
