@@ -36,5 +36,6 @@ That’s how Event Bubbling works.</li>
  <h3>5. What is the difference between preventDefault() and stopPropagation() methods?</h3>
  <hr>
  <p>Both are used inside the event handlers, but they do completely different things.<br>
-   One controls browser behavior [preventDefault()] .<br>
-   The other controls event flow in the DOM [stopPropagation()] . </p>
+   One controls browser behavior [ preventDefault() ] .<br>
+   The other controls event flow in the DOM [ stopPropagation() ] . </p>
+
