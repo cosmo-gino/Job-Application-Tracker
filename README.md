@@ -1,7 +1,8 @@
-﻿# Job-Application-Tracker
-
-<hr>
-<h1>Questions & Answers</h1>
+﻿# PROJECT NAME-> Job-Application-Tracker 
+&
+<!-- <hr>     -->
+<h1> </h1>
+<h1>  SOME JS <BR></BR>Questions & Answers</h1>
 <hr>
 <h3>1. What is the difference between getElementById, getElementsByClassName, and querySelector / querySelectorAll? </h3>
 <ul>
@@ -38,4 +39,5 @@ That’s how Event Bubbling works.</li>
  <p>Both are used inside the event handlers, but they do completely different things.<br>
    One controls browser behavior [ preventDefault() ] .<br>
    The other controls event flow in the DOM [ stopPropagation() ] . </p>
+
 
